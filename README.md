@@ -5,7 +5,7 @@ This plugin requires Anope IRC service, a custom misc data in ns_set_misc nickse
 
 example for nickserv.conf
 
-command { service = "NickServ"; name = "SET BIOLINK"; command = "nickserv/set/misc"; misc_description = _("Associate a BIOLINK url with your account ( https://bio.link )"); }
+	command { service = "NickServ"; name = "SET BIOLINK"; command = "nickserv/set/misc"; misc_description = _("Associate a BIOLINK url with your account ( https://bio.link )"); }
 
 
 if you use Magirc for your rest API create a custom API to get misc data :
