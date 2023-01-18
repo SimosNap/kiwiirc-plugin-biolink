@@ -12,16 +12,16 @@ if you use Magirc for your rest API create a custom API to get misc data :
 
 in magirc rest/service.php add :
 
-``` php\n <--- 
+
 $magirc->slim->get('/nmisc/{user}', function($req, $res, $args) use($magirc) {
     return $res->withJson($magirc->service->getNMisc($args['user']));
 });
---->\n ```
+
 
 in magirc lib/magirc/services/Anope.class.php add :
 
-``` php\n <---   
-public function getNMisc($user) {
+ 
+    public function getNMisc($user) {
         
 		$query = sprintf("SELECT * FROM anope_db_NSMiscData WHERE nc = :user");
 
@@ -34,5 +34,5 @@ public function getNMisc($user) {
 		}
 		return $array;
     }
-    --->\n ```
+ 
 
