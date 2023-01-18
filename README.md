@@ -1,7 +1,7 @@
 # kiwiirc-plugin-biolink
 KiwiIRC biolink Plugin
 
-This plugin require Anope IRC service, a custom misc data in ns_set_misc nickserv module and a custom rest API end point to get anope misc data.
+This plugin requires Anope IRC service, a custom misc data in ns_set_misc nickserv module and a custom rest API end point to get anope misc data.
 
 example for nickserv.conf
 
