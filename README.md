@@ -23,7 +23,7 @@ in magirc lib/magirc/services/Anope.class.php add :
  
     public function getNMisc($user) {
         
-		$query = sprintf("SELECT * FROM anope_db_NSMiscData WHERE nc = :user");
+	$query = sprintf("SELECT * FROM anope_db_NSMiscData WHERE nc = :user");
 
         $ps = $this->db->prepare($query);
         $ps->bindValue(':user', $user, PDO::PARAM_STR);
