@@ -1,7 +1,9 @@
 # kiwiirc-plugin-biolink
 Show users Bio Link in kiwiIRC UserBox
 
-IRC allows you to share very little bio data with other users. Using bio.link lets you link to all your pages — websites, social posts, videos, music, bio, photo — making it easier for your audience to discover all your content. Using [bio.link](https://bio.link) you can also enter a dogecoin tipping jar following [TipMysite](https://www.tipmysite.com) instructions.
+IRC allows you to share very little bio data with other users. Using bio.link lets you link to all your pages — websites, social posts, videos, music, bio, photo — making it easier for your audience to discover all your content.
+
+Using [bio.link](https://bio.link) you can also enter a dogecoin tipping jar following [TipMysite](https://www.tipmysite.com) instructions.
 
 This plugin requires Anope IRC service, a custom misc data in ns_set_misc nickserv module and a custom rest API end point to get anope misc data.
 
