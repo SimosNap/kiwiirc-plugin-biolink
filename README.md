@@ -21,7 +21,7 @@ in magirc rest/service.php add :
     		return $res->withJson($magirc->service->getNMisc($args['user']));
 	});
 
-this will add the ns misc API endpoint (example: https://www.mynetworksite.com/rest/service.php/nmisc/{account} )
+this will add the ns misc API endpoint (example: https://www.example.com/rest/service.php/nmisc/{account} )
 
 in magirc lib/magirc/services/Anope.class.php add :
 
