@@ -13,9 +13,9 @@ if you use Magirc for your rest API create a custom API to get misc data :
 in magirc rest/service.php add :
 
 
-$magirc->slim->get('/nmisc/{user}', function($req, $res, $args) use($magirc) {
-    return $res->withJson($magirc->service->getNMisc($args['user']));
-});
+	$magirc->slim->get('/nmisc/{user}', function($req, $res, $args) use($magirc) {
+    		return $res->withJson($magirc->service->getNMisc($args['user']));
+	});
 
 
 in magirc lib/magirc/services/Anope.class.php add :
